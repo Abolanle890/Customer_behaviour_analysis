@@ -15,6 +15,9 @@
 ----
 This project explores a customer payment dataset to uncover purchasing behavior, spending trends, and the financial habits of various occupations. The goal is to derive actionable insights to support data-driven decision-making in consumer analytics.
 
+![Image Alt](https://github.com/Abolanle890/Customer_behaviour_analysis/blob/89b9c1c3c590b623ffaefbc53c8b37346486a067/Bar%20chart.png)
+
+
 
 ### Data source
 
