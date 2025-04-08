@@ -17,7 +17,7 @@ This project explores a customer payment dataset to uncover purchasing behavior,
 
 ![Image Alt](https://github.com/Abolanle890/Customer_behaviour_analysis/blob/89b9c1c3c590b623ffaefbc53c8b37346486a067/Bar%20chart.png)
 
-
+![Image Alt](https://github.com/Abolanle890/Customer_behaviour_analysis/blob/768d528ccd49c5749c8acf4fd42dc874c9bc0737/Pie%20chart.png)
 
 ### Data source
 
