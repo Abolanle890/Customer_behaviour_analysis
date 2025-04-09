@@ -21,7 +21,7 @@ This project explores a customer payment dataset to uncover purchasing behavior,
 
 ### Data source
 
-The datasets were shared via a LinkedIn connection.
+The datasets were shared via a LinkedIn connection.[Download Here](https://github.com/Abolanle890/Customer_behaviour_analysis/blob/cc7ae1950d6714461c38de8d9410c8d987e1fed1/Customer_behaviours.xlsx)
 
 
 ### Dataset Overview
