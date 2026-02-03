@@ -2,67 +2,76 @@
 
 ## Table of Content
 - [project overview](#project-overview)
+- [Key Insights](#key-insights)
+- [Business Recommendations](#business-recommendations)
 - [Data source](#data-source)
 - [Dataset Overview](#dataset-overview)
 - [Tools](#tools)
-- [Data Cleaning](#data-cleaning)
-- [Key Insights](#key-insights)
-- [Recomendations](#recomendations)
+- [Data Preparation](#data-preparation)
 - [Conclusion](#conclusion)
 
 
-### project overview
-----
-This project explores a customer payment dataset to uncover purchasing behavior, spending trends, and the financial habits of various occupations. The goal is to derive actionable insights to support data-driven decision-making in consumer analytics.
+## project overview
 
-![Image Alt](https://github.com/Abolanle890/Customer_behaviour_analysis/blob/89b9c1c3c590b623ffaefbc53c8b37346486a067/Bar%20chart.png)
+This project analyzes customer income, spending, and payment behavior across multiple cities to understand how different customer segments earn, spend, and transact. The objective is to generate practical insights to support business decisions, including customer segmentation, marketing strategy, and payment optimization.
 
-![Image Alt](https://github.com/Abolanle890/Customer_behaviour_analysis/blob/768d528ccd49c5749c8acf4fd42dc874c9bc0737/Pie%20chart.png)
+The analysis focuses on identifying high-value customer groups, understanding spending priorities, and highlighting preferred payment methods that can be leveraged to improve customer engagement and revenue outcomes.
 
-### Data source
 
-The datasets were shared via a LinkedIn connection.
+## Key Insights
 
-### Dataset Overview
+- Income Spending Imbalance: Several professional groups show spending levels that significantly exceed their reported average income, indicating potential overconsumption or reliance on credit.
+
+- Disproportionate Gaps: In some segments, average spending is multiple times higher than average income (e.g., spending totals around 207M compared to income of approximately 53.1M), highlighting an unsustainable financial gap.
+
+- Variation by Occupation: While income levels differ across occupations, spending behavior does not scale proportionally, suggesting that earning more does not necessarily lead to more controlled spending.
+
+- City-Level Patterns: Overspending tendencies are more pronounced in certain cities, indicating that location may influence cost-of-living pressures or lifestyle-driven consumption.
+
+- Payment Behavior Insight: High usage of digital payment methods may be enabling easier spending without immediate income visibility, contributing to the observed spending–income gap.
+
+## Business Recommendations
+
+- Highlight Financial Risk Signals: Use income-versus-spending comparisons to flag customer segments and cities where spending consistently exceeds income, supporting early identification of financial stress patterns.
+
+- Support Financial Planning Insights: The findings can inform the design of budgeting tools, financial literacy programs, or policy discussions focused on improving personal financial management.
+
+- City-Level Cost Analysis: Policymakers and researchers can combine these insights with cost-of-living data to better understand how location impacts consumer financial behavior.
+
+- Payment Behavior Monitoring: High reliance on digital payment methods suggests the need for clearer spending visibility, such as monthly summaries or alerts that help individuals track expenses relative to income.
+
+- Data-Driven Research Use: The dataset can serve as a foundation for further academic or policy-oriented research into income sustainability, consumer debt risk, and urban spending behavior.
+
+## Data source
+
+The dataset is a simulated customer spending and income dataset shared through a professional network and used strictly for analytical and educational purposes.
+
+## Dataset Overview
 The project utilizes two datasets:
 
 - Customer Demographics (dim_customers.xlsx): Includes age group, city, occupation, gender, marital status, and average income for 4,000 customers.
 - Customer Spending Data (fact_spends.xlsx): Captures 864,000 records of monthly spending by customers across categories, payment types, and transaction values.
 
 
-### Tools 
+## Tools 
 
 - EXCEL - Data cleaning 
 - POWER BI - Data Analysis & Visualization 
 
-  ### Data Cleaning
-Data cleaning was performed in Microsoft Excel to ensure the dataset is accurate, consistent, and ready for analysis. The following steps were undertaken:
+  ## Data Preparation
 
-- Removing Duplicate Customer IDs
-- Ensured each customer had a unique identifier.
-- Ensuring Positive Integer Values for Spending
-- Checked all spending values to ensure they were positive integers.
-- Standardizing Text Entries
-- Applied title casing to text entries like occupation and city names for consistency.
-- Verifying Referential Integrity Between Customers and Transactions
-- Cross-checked customer IDs with transaction records to ensure proper links between customers and their transactions.
+Data preparation was completed in Microsoft Excel to ensure reliability and analytical accuracy. Key steps included:
 
-### Key Insights
-- Top Spending Occupations: Salaried IT employees and business owners had the highest average monthly spend.
-- High-Income vs. High-Spending: Occupations with the highest average income did not always correlate with the highest spending.
-- Popular Categories: Bills, Groceries, electronics, and health & wellness were the most frequently purchased categories.
-- Preferred Payment Methods: Credit cards and UPI were the most common payment types.
-- Behavior by Occupation: Distinct differences in spending patterns were observed across various occupational groups.
+- Removing duplicate customer records to maintain a one-to-one customer identifier
 
-### Recomendations
--  Create targeted marketing campaigns or special offers for these high-spending occupations. Tailor promotions that align with their interests, such as technology or business-related products, to maximize engagement and revenue.
--  Segment customers by occupation and create personalized offers. For instance, offer health-related discounts for healthcare professionals, or tech-related products for IT professionals. Personalization can increase customer satisfaction and loyalty.
--  Implement automated systems for fraud detection that flag any unusual spending patterns or outliers. Additionally, regularly audit the data to ensure it remains clean and reliable for future analysis.
--  Invest in marketing campaigns that focus on these high-demand categories. Offer bundle deals or discounts on popular items within these categories to further increase customer spending
--  Strengthen the mobile payment experience by enhancing UPI functionality and offering mobile-first payment options. Streamlining the checkout process will improve conversion rates, especially for tech-savvy customers.
+- Validating spending values to ensure all transactions reflected positive amounts
+
+- Standardizing text fields such as occupation and city names for consistency
+
+- Verifying links between customer records and transaction data to ensure accurate analysis at the customer level
+
+These steps ensured the dataset was consistent, complete, and suitable for business analysis.
+
 
 ### Conclusion
-- Analyze the link between occupation and spending/income
-- Understand consumer trends across cities and age groups
-- Visualize key business metrics for decision-making
-
+This analysis provides a city-level view of how income relates to actual spending behavior across different professional groups. The results reveal significant gaps between what customers earn and what they spend, pointing to potential financial sustainability risks rather than revenue opportunities. By focusing on income–spending alignment, this project demonstrates how data can be used to assess consumer financial health, identify systemic overspending patterns, and support more informed economic and behavioral insights.
